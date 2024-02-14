@@ -11,4 +11,54 @@ body {
   background: hsl(275, 100%, 97%)
     url("./assets/images/background-pattern-desktop.svg") no-repeat;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+button:hover {
+  color: hsl(292, 83%, 21%);
+}
+
+p {
+  color: hsl(292, 16%, 49%);
+  font-size: 0.8rem;
+  margin: 1rem 0;
+}
+
+.card {
+  width: 40%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.title-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.panel {
+  overflow: hidden;
+  display: none;
 }
