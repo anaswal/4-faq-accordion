@@ -60,5 +60,6 @@ h2 {
 
 .panel {
   overflow: hidden;
-  display: none;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
 }
